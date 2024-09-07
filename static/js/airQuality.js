@@ -18,7 +18,7 @@ document.getElementById('predictionForm').addEventListener('submit', function(e)
     };
 
     // Send POST request to Flask backend
-    fetch('/air_quality_prediction/predict', {
+    fetch('/predict', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
