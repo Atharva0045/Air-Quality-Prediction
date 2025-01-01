@@ -1,0 +1,5 @@
+.venv
+.condarc
+.vscode
+__pycache__
+*.pyc
